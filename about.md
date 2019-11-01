@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm senior machine learning scientist focusing on applying computer vision/deep learning onto digital pathology!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I got PhD with electrical and computer engineering from University of Illinois at Chicago, currently working at Tempus Labs Inc.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[shalingdao@gmail.com](mailto:shalingdao@gmail.com)
