@@ -2,17 +2,217 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="shell hero-layout">
+    <div class="hero-copy">
+      <p class="eyebrow">Senior Applied Scientist at Amazon</p>
+      <h1 id="hero-title">Lingdao Sha</h1>
+      <p class="hero-title">Advancing language models for specialized data and real-world decisions.</p>
+      <p class="hero-lead">
+        I research domain-specific LLMs, reinforcement learning with LLMs, and multimodal LLMs,
+        with a particular interest in behavioral and sequential data.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#research">Research interests</a>
+        <a class="text-link" href="https://github.com/LingdaoSha">View GitHub <span aria-hidden="true">↗</span></a>
       </div>
+    </div>
+    <figure class="hero-portrait">
+      <img src="{{ site.baseurl }}/images/lingdao-photo.JPG" alt="Portrait of Lingdao Sha" width="400" height="400" />
+    </figure>
+  </div>
+</section>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<section class="section section-intro" aria-labelledby="about-title">
+  <div class="shell section-grid">
+    <div class="section-heading">
+      <p class="section-number">01</p>
+      <h2 id="about-title">About</h2>
+    </div>
+    <div class="intro-copy">
+      <p class="large-copy">
+        I am a Senior Applied Scientist at Amazon, working at the intersection of applied machine
+        learning and emerging foundation-model research.
+      </p>
+      <p>
+        My focus is on adapting language models to the structure and constraints of specialized
+        domains. I am interested in methods that learn from behavioral and sequential signals,
+        improve decisions through feedback, and connect language with visual and structured data.
+      </p>
+      <p>
+        My earlier research spans computer vision, digital pathology, sparse representation, and
+        multimodal analysis. I received my Ph.D. in Electrical and Computer Engineering from the
+        University of Illinois Chicago.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-research" id="research" aria-labelledby="research-title">
+  <div class="shell">
+    <div class="section-grid section-grid-intro">
+      <div class="section-heading">
+        <p class="section-number">02</p>
+        <h2 id="research-title">Research interests</h2>
+      </div>
+      <p class="section-summary">
+        Building capable models requires more than scale. My interests center on representations,
+        learning signals, and evaluation methods grounded in the domain where a model operates.
+      </p>
+    </div>
+
+    <div class="research-list">
+      <article class="research-item">
+        <span class="research-index">A</span>
+        <div>
+          <h3>Domain-specific LLMs</h3>
+          <p>
+            Language-model adaptation for specialized domains, especially behavioral and sequential
+            datasets where ordering, context, and long-range patterns carry essential meaning.
+          </p>
+        </div>
+        <p class="research-tags">Behavioral data · Sequential modeling · Adaptation</p>
+      </article>
+
+      <article class="research-item">
+        <span class="research-index">B</span>
+        <div>
+          <h3>Reinforcement learning with LLMs</h3>
+          <p>
+            Feedback-driven approaches that improve language-model reasoning and decision-making,
+            including reliable learning objectives and evaluation for real-world settings.
+          </p>
+        </div>
+        <p class="research-tags">Feedback · Decision-making · Evaluation</p>
+      </article>
+
+      <article class="research-item">
+        <span class="research-index">C</span>
+        <div>
+          <h3>Multimodal LLMs</h3>
+          <p>
+            Models that connect language with visual and structured signals to produce more grounded,
+            context-aware representations and predictions.
+          </p>
+        </div>
+        <p class="research-tags">Language · Vision · Structured signals</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience" aria-labelledby="experience-title">
+  <div class="shell section-grid">
+    <div class="section-heading">
+      <p class="section-number">03</p>
+      <h2 id="experience-title">Experience</h2>
+    </div>
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="timeline-meta">
+          <p class="timeline-period">Current</p>
+          <p>Amazon</p>
+        </div>
+        <div>
+          <h3>Senior Applied Scientist</h3>
+          <p>
+            Researching and developing applied machine-learning methods for complex, domain-specific
+            problems. The work spans scientific exploration, rigorous experimentation, and the
+            translation of promising methods into practical systems.
+          </p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-meta">
+          <p class="timeline-period">Prior experience</p>
+          <p>Tempus</p>
+        </div>
+        <div>
+          <h3>Senior Machine Learning Scientist</h3>
+          <p>
+            Worked on deep learning for digital pathology and computational imaging, including visual
+            representation learning, tissue analysis, and integration of image and molecular signals.
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-work" id="work" aria-labelledby="work-title">
+  <div class="shell">
+    <div class="section-grid section-grid-intro">
+      <div class="section-heading">
+        <p class="section-number">04</p>
+        <h2 id="work-title">Selected work</h2>
+      </div>
+      <p class="section-summary">
+        Selected public research and code from my earlier work in representation learning,
+        computational imaging, and applied machine learning.
+      </p>
+    </div>
+
+    <div class="work-grid">
+      <article class="work-card work-card-featured">
+        <p class="work-type">Doctoral research</p>
+        <h3>Sparsity and Manifold Methods in Image and Higher Dimensional Data Representation</h3>
+        <p>
+          Dissertation research on sparse and manifold-based representations for images and
+          high-dimensional data.
+        </p>
+        <a href="https://indigo.uic.edu/articles/thesis/Sparsity_and_Manifold_Methods_in_Image_and_Higher_Dimensional_Data_Representation/10837766">View dissertation <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="work-card">
+        <p class="work-type">Publication · 2017</p>
+        <h3>Graph Regularized Sparse Coding by Modified Online Dictionary Learning</h3>
+        <p>
+          Structured sparse coding that incorporates relationships among observations during online
+          dictionary learning.
+        </p>
+        <a href="https://scholar.google.com/scholar?q=%22Graph+regularized+sparse+coding+by+modified+online+dictionary+learning%22">Find publication <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="work-card">
+        <p class="work-type">Open-source project</p>
+        <h3>Structured Dictionary Learning</h3>
+        <p>
+          Public implementation work exploring structured representations and stain normalization
+          for computational imaging.
+        </p>
+        <a href="https://github.com/LingdaoSha/Structured-Dictionary-Learning">View repository <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="work-card">
+        <p class="work-type">Open-source project</p>
+        <h3>ProductVision</h3>
+        <p>
+          An iOS computer-vision prototype that analyzes product images and connects visual results
+          with related products.
+        </p>
+        <a href="https://github.com/LingdaoSha/product-vision-swift">View repository <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+
+    <div class="work-more">
+      <p>More publications and public code are available through my research and GitHub profiles.</p>
+      <div>
+        <a class="button button-secondary" href="https://scholar.google.com/scholar?q=%22Lingdao+Sha%22">Google Scholar</a>
+        <a class="button button-secondary" href="https://github.com/LingdaoSha?tab=repositories">All repositories</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" aria-labelledby="contact-title">
+  <div class="shell contact-layout">
+    <div>
+      <p class="eyebrow">Connect</p>
+      <h2 id="contact-title">Research, applied ML, and thoughtful collaboration.</h2>
+    </div>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/lingdao-sha-ph-d-90200640/">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/LingdaoSha">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>

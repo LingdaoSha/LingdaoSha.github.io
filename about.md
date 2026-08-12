@@ -4,12 +4,21 @@ title: About
 permalink: /about/
 ---
 
-I'm senior machine learning scientist focusing on applying computer vision/deep learning onto digital pathology!
+I am a Senior Applied Scientist at Amazon. My research interests include domain-specific large
+language models for behavioral and sequential data, reinforcement learning with LLMs, and
+multimodal LLMs.
 
-### More Information
+My earlier research spans computer vision, digital pathology, sparse representation learning, and
+multimodal analysis. I received my Ph.D. in Electrical and Computer Engineering from the University
+of Illinois Chicago.
 
-I got PhD with electrical and computer engineering from University of Illinois at Chicago, currently working at Tempus Labs Inc.
+### Research interests
 
-### Contact me
+- Domain-specific LLMs for behavioral and sequential datasets
+- Reinforcement learning and feedback-driven adaptation for LLMs
+- Multimodal LLMs that connect language, visual, and structured signals
 
-[shalingdao@gmail.com](mailto:shalingdao@gmail.com)
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/lingdao-sha-ph-d-90200640/) ·
+[GitHub](https://github.com/LingdaoSha)

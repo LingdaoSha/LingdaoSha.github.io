@@ -1,7 +1,11 @@
 ---
 layout: post
-title: Domain-Adversial Training of Neural Network
+title: Domain-Adversarial Training of Neural Networks
 ---
 
-Domain-Adversial is a new representation learning approach for domain adaptation, in which data at training and test time come from similar but different distributions.The hypothesis is, for effective domain transfer to be achieved, predictions must be made based on features that cannot discriminate between the training (source) and test (target) domains. 
-[reference paper](https://arxiv.org/pdf/1505.07818.pdf)
+Domain-adversarial training is a representation-learning approach for domain adaptation, where
+training and test data come from related but different distributions. The central hypothesis is that
+effective transfer depends on features that are useful for the primary task but do not discriminate
+between the source and target domains.
+
+[Read the reference paper](https://arxiv.org/pdf/1505.07818.pdf).
